@@ -26,7 +26,13 @@ aslında düzemlede kırılan k'nın, bir önceki k ve bir sonraki k ile yaptı�
 * Bu durumda bu açıyı kolayca pisagor ve diskriminant ile bulabilir. 3 noktayı ele aldıktan her 3 noktadan mesafe hesaplamasıyla [((x1-x2)^2 + (y1-y2)^2)^(1/2)] 3 noktanın köşe olduğu bir üçgen çizebilir. Üçgene sahip olduktan sonra kolayca pisagoru uygulamayabilmekteyiz. Istenilen k bölgesinin [ (a^2+b^2-c^2)/(2*a*b) ] 
 denklemiyle noktanın açısını kosinüs (cos) değerini bulabilmekteyiz. Arccos işlemiyle de kırılım açısını bulabililiriz. Kırılım açılarının en küçüğü bizim istediğimiz 
 en iyi sonucu veren K değeri olacaktır. Böylece k-means ihtiyacı olan k değerini kendi yakalamış olacak ve dinamikleşicektir.
-  
+
+# Argumanlar | Args
+<br> **goster / show = (boolean)** <br/>
+goster : yapılan işlemlerin gelistiriciye gosterilip gosterilmeyeceğidir.
+
+<br> **maxK = (int)** <br/>
+maxK : en fazla kaç adet k degeri alabileceğidir -> wcss grafiginde diresek olusması icin en az 5 veriniz
 # Kullanım | Usage
 
 * İlk başta gerekli modulleri yüklemelisiniz.
@@ -40,6 +46,10 @@ yapabilirsiniz.
 ```
 from dinamikKmeans import dinamikKmeans
 #from dynamicKmeans import dynamicKmeans
+
+
+dKnn = dinamikKmeans(goster=True,init="k-means++",random_state=12) 
+#dKnn = dynamicKmeans(show=True,init="k-means++",random_state=12) 
 
 #X sizin veri setinizdir.
 
