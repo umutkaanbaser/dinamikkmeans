@@ -35,9 +35,11 @@ pip install requirements.txt
 ```
 * Sonraki isterseniz bir üst klasorun altında isterseniz doğrudan çağırarak kütüphaneyi dahil edebilir ardından aşağıdaki kodlar ile eğitip, tanıma işlemi
 yapabilirsiniz.
+
+* Eğer ingilizce kod dosyasından dahil ediyorsanız yorum satırlarını kullanınız.
 ```
 from dinamikKmeans import dinamikKmeans
-# from dynamicKmeans import dynamicKmeans
+#from dynamicKmeans import dynamicKmeans
 
 #X sizin veri setinizdir.
 
