@@ -56,10 +56,12 @@ will become dynamic.
 # Argumanlar | Args
 <br> **goster / show = True (boolean)** <br/>
 goster : yapılan işlemlerin gelistiriciye gosterilip gosterilmeyeceğidir.
+<br>
 show : whether the actions taken will be shown to the developer.
 
 <br> **maxK = 10 (int)** <br/>
 maxK : en fazla kaç adet k degeri alabileceğidir -> wcss grafiginde diresek olusması icin en az 5 veriniz
+<br>
 maxK : is how many k values it can take at most -> give at least 5 to form a pole in the wcss chart
 
 # Kullanım | Usage
