@@ -10,7 +10,7 @@ inceleyemeceğimiz yada wcss değerlerini görerek yorumlayamayacğımız; uygul
 k değeri olacağını söyleyemeyiz. Bu tarz durumlarda k-means en iyi şekilde kaç adet k değeri alacağına kendisi karar vermelidir. Statik değil dinamik çalışmalıdır.
 
 <div style="display:flex;">
-<img src="https://raw.githubusercontent.com/umutkaanbaser/dinamikkmeans/main/resimler/Dagilim.PNG" width="250" title"veri seti dağılımı"/>
+<img src="https://raw.githubusercontent.com/umutkaanbaser/dinamikkmeans/main/resimler/Dagilim.PNG" width="250" title="veri seti dağılımı"/>
 <img src="https://raw.githubusercontent.com/umutkaanbaser/dinamikkmeans/main/resimler/dagilimKume.png" width="250" title="veri seti dağılımı kümelenmesi"/>
 </div>
 
@@ -26,6 +26,12 @@ aslında düzemlede kırılan k'nın, bir önceki k ve bir sonraki k ile yaptı�
 * Bu durumda bu açıyı kolayca pisagor ve diskriminant ile bulabilir. 3 noktayı ele aldıktan her 3 noktadan mesafe hesaplamasıyla [((x1-x2)^2 + (y1-y2)^2)^(1/2)] 3 noktanın köşe olduğu bir üçgen çizebilir. Üçgene sahip olduktan sonra kolayca pisagoru uygulamayabilmekteyiz. Istenilen k bölgesinin [ (a^2+b^2-c^2)/(2*a*b) ] 
 denklemiyle noktanın açısını kosinüs (cos) değerini bulabilmekteyiz. Arccos işlemiyle de kırılım açısını bulabililiriz. Kırılım açılarının en küçüğü bizim istediğimiz 
 en iyi sonucu veren K değeri olacaktır. Böylece k-means ihtiyacı olan k değerini kendi yakalamış olacak ve dinamikleşicektir.
+
+<div style="display:flex;">
+<img src="https://raw.githubusercontent.com/umutkaanbaser/dinamikkmeans/main/resimler/aci1.png" width="250" title="wcss'in içindeki üçgen/>
+<img src="https://github.com/umutkaanbaser/dinamikkmeans/blob/main/resimler/aci2.png" width="250" title="wcss'in içindeki üçgen"/>
+<img src="https://github.com/umutkaanbaser/dinamikkmeans/blob/main/resimler/aci3.png" width="250" title="wcss'in içindeki üçgen"/>
+</div>
 
 # Argumanlar | Args
 <br> **goster / show = True (boolean)** <br/>
