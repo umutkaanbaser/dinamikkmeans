@@ -28,7 +28,7 @@ denklemiyle noktanın açısını kosinüs (cos) değerini bulabilmekteyiz. Arcc
 en iyi sonucu veren K değeri olacaktır. Böylece k-means ihtiyacı olan k değerini kendi yakalamış olacak ve dinamikleşicektir.
 
 <div style="display:flex;">
-<img src="https://raw.githubusercontent.com/umutkaanbaser/dinamikkmeans/main/resimler/aci1.png" width="250" title="wcss'in içindeki üçgen/>
+<img src="https://raw.githubusercontent.com/umutkaanbaser/dinamikkmeans/main/resimler/aci1.png" width="250" title="wcss'in içindeki üçgen"/>
 <img src="https://github.com/umutkaanbaser/dinamikkmeans/blob/main/resimler/aci2.png" width="250" title="wcss'in içindeki üçgen"/>
 <img src="https://github.com/umutkaanbaser/dinamikkmeans/blob/main/resimler/aci3.png" width="250" title="wcss'in içindeki üçgen"/>
 </div>
