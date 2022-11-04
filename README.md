@@ -56,19 +56,27 @@ will become dynamic.
 # Argumanlar | Args
 <br> **goster / show = True (boolean)** <br/>
 goster : yapılan işlemlerin gelistiriciye gosterilip gosterilmeyeceğidir.
+show : whether the actions taken will be shown to the developer.
 
 <br> **maxK = 10 (int)** <br/>
 maxK : en fazla kaç adet k degeri alabileceğidir -> wcss grafiginde diresek olusması icin en az 5 veriniz
+maxK : is how many k values it can take at most -> give at least 5 to form a pole in the wcss chart
+
 # Kullanım | Usage
 
 * İlk başta gerekli modulleri yüklemelisiniz.
+* First you have to install the necessary modules.
 ```
 pip install requirements.txt
 ```
 * Sonraki isterseniz bir üst klasorun altında isterseniz doğrudan çağırarak kütüphaneyi dahil edebilir ardından aşağıdaki kodlar ile eğitip, tanıma işlemi
 yapabilirsiniz.
 
+* Next, if you want, you can include the library by calling it directly under a parent folder, then training it with the following codes and the recognition process
+You can do.
+
 * Eğer ingilizce kod dosyasından dahil ediyorsanız yorum satırlarını kullanınız.
+* If you're including from an english script file, use comment lines.
 ```
 from dinamikKmeans import dinamikKmeans
 #from dynamicKmeans import dynamicKmeans
