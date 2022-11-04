@@ -33,4 +33,17 @@ en iyi sonucu veren K değeri olacaktır. Böylece k-means ihtiyacı olan k değ
 ```
 pip install requirements.txt
 ```
-  
+* Sonraki isterseniz bir üst klasorun altında isterseniz doğrudan çağırarak kütüphaneyi dahil edebilir ardından aşağıdaki kodlar ile eğitip, tanıma işlemi
+yapabilirsiniz.
+```
+from dinamikKmeans import dinamikKmeans
+# from dynamicKmeans import dynamicKmeans
+
+#X sizin veri setinizdir.
+
+dKnn.egit(X)
+#dKnn.fit(X)
+
+dKnn.tani(X)
+#dKnn.predict(X)
+```
