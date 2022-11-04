@@ -27,5 +27,10 @@ aslında düzemlede kırılan k'nın, bir önceki k ve bir sonraki k ile yaptı�
 denklemiyle noktanın açısını kosinüs (cos) değerini bulabilmekteyiz. Arccos işlemiyle de kırılım açısını bulabililiriz. Kırılım açılarının en küçüğü bizim istediğimiz 
 en iyi sonucu veren K değeri olacaktır. Böylece k-means ihtiyacı olan k değerini kendi yakalamış olacak ve dinamikleşicektir.
   
-# Nasıl Kullanırım ? | How does is work ?
+# Kullanım | Usage
+
+* İlk başta gerekli modulleri yüklemelisiniz.
+```
+pip install requirements.txt
+```
   
