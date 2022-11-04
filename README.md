@@ -20,7 +20,7 @@ yapmakta. Wcss değerler grafiği aslında bir x,y düzlemidir. X düzlemindeki 
 aslında düzemlede kırılan k'nın, bir önceki k ve bir sonraki k ile yaptığı açıdır. Bu açıların en küçüğü kırılm noktası dirsek noktası olmaktadır.
 
 <div style="float:left;">
-<img src="https://raw.githubusercontent.com/umutkaanbaser/dinamikkmeans/main/resimler/wCSS.png" width="350" title"wcss grafiği"/>
-<img src="https://raw.githubusercontent.com/umutkaanbaser/dinamikkmeans/main/resimler/wcssKirilim.png" width="wcss grafiği kırılım"/>
+<img src="https://raw.githubusercontent.com/umutkaanbaser/dinamikkmeans/main/resimler/wCSS.png" width="350" title="wcss grafiği"/>
+<img src="https://raw.githubusercontent.com/umutkaanbaser/dinamikkmeans/main/resimler/wcssKirilim.png" width="350" title="wcss grafiği kırılım"/>
 </div>
     Wcss grafiğinde X düzleminde k değerlerinden kırılımını kaç derece açıyla kırıldığını 
