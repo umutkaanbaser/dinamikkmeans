@@ -28,10 +28,10 @@ denklemiyle noktanın açısını kosinüs (cos) değerini bulabilmekteyiz. Arcc
 en iyi sonucu veren K değeri olacaktır. Böylece k-means ihtiyacı olan k değerini kendi yakalamış olacak ve dinamikleşicektir.
 
 # Argumanlar | Args
-<br> **goster / show = (boolean)** <br/>
+<br> **goster / show = True (boolean)** <br/>
 goster : yapılan işlemlerin gelistiriciye gosterilip gosterilmeyeceğidir.
 
-<br> **maxK = (int)** <br/>
+<br> **maxK = 10 (int)** <br/>
 maxK : en fazla kaç adet k degeri alabileceğidir -> wcss grafiginde diresek olusması icin en az 5 veriniz
 # Kullanım | Usage
 
